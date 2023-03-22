@@ -1,0 +1,12 @@
+{  
+"SIGNOUT": ".container > .justify-between > .space-x-4 > .text-sm",
+"BADGE": ".flex-shrink-0",
+"FEEDBACK_WALL": ".text-2xl",
+"CREATE_FEEDBACK": ".justify-between > .items-center > .flex",
+"TITLE": "div.mt-4 > .space-y-6 > :nth-child(1) > .mt-1 > #title",
+"FEEDBACK_FIELD": "div.mt-4 > .space-y-6 > :nth-child(2) > .mt-1 > #body",
+"USER_DROPDOWN": "div.mt-4 > .space-y-6 > :nth-child(4) > .w-full",
+"SUBMIT_FEEDBACK": "div.mt-4 > .space-y-6 > :nth-child(6) > .flex",
+"WALL_FEEDBACKS": ".py-10"
+  }
+  

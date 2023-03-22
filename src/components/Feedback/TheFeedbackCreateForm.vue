@@ -55,6 +55,7 @@ async function getAllUsers() {
     const response = await api.get("/auth/users");
 
     talents.value = response.data ?? [];
+    console.log(talentsFiltered.value)
   } catch {
     // ignore
   }
@@ -101,7 +102,7 @@ onBeforeMount(() => {
     <div>
       <select class="w-full rounded-md border-gray-300" required v-model="form.receiverId">
         <option value="" disabled>Select the receiver</option>
-        <option v-for="talent in talents" :key="talent.id" :value="talent.id" :selected="form.receiverId === talent.id">
+        <option v-for="talent in talentsFiltered" :key="talent.id" :value="talent.id" :selected="form.receiverId === talent.id">
           {{ talent.username }}
         </option>
       </select>

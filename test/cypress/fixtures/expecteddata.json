@@ -1,0 +1,8 @@
+{
+"EXPECTED_SIGNEDIN_URL": "http://localhost:3000/feedback",
+"EXPECTED_SIGNED_OUT_TEXT" : "sign out",
+"BADGE_TEXT": " Leapsome Develop your people, scale your business",
+"FEEDBACK_WALL": "Feedback Wall",
+"EXPECTED_WALL_FEEDBACK": "Piyush Jha is trying to give feedback"
+  }
+  
